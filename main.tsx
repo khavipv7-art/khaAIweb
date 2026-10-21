@@ -1,8 +1,18 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './App';
-import './styles.css';
 
-createRoot(document.getElementById('root')!).render(
-  <React.StrictMode><App /></React.StrictMode>,
-);
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#030708" />
+    <meta
+      name="description"
+      content="CYAN – người bạn AI với đôi mắt neon, hội thoại thông minh và giọng nói."
+    />
+    <title>CYAN – AI Companion</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./main.tsx"></script>
+  </body>
+</html>
